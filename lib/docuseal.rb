@@ -2,17 +2,17 @@
 
 module Docuseal
   URL_CACHE = ActiveSupport::Cache::MemoryStore.new
-  PRODUCT_URL = 'https://www.docuseal.co'
+  PRODUCT_URL = 'https://www.harasoft.com.tw'
   NEWSLETTER_URL = "#{PRODUCT_URL}/newsletters".freeze
   ENQUIRIES_URL = "#{PRODUCT_URL}/enquiries".freeze
-  PRODUCT_NAME = 'DocuSeal'
+  PRODUCT_NAME = 'HaraSign'
   DEFAULT_APP_URL = 'http://localhost:3000'
-  GITHUB_URL = 'https://github.com/docusealco/docuseal'
-  DISCORD_URL = 'https://discord.gg/qygYCDGck9'
-  TWITTER_URL = 'https://twitter.com/docusealco'
-  TWITTER_HANDLE = '@docusealco'
-  CHATGPT_URL = 'https://chatgpt.com/g/g-9hg8AAw0r-docuseal'
-  SUPPORT_EMAIL = 'support@docuseal.co'
+  GITHUB_URL = ''
+  DISCORD_URL = ''
+  TWITTER_URL = ''
+  TWITTER_HANDLE = ''
+  CHATGPT_URL = ''
+  SUPPORT_EMAIL = 'support@raga.com.tw'
   HOST = ENV.fetch('HOST', 'localhost')
   CONSOLE_URL = if Rails.env.development?
                   'http://console.localhost.io:3001'
