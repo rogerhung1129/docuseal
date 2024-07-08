@@ -330,13 +330,13 @@ module Submissions
     end
 
     def sign_reason
-      'Signed with DocuSeal.co'
+      'Signed with HaraSoftware'
     end
 
     def add_logo(column, _submission = nil)
       column.image(PdfIcons.logo_io, width: 40, height: 40, position: :float)
 
-      column.formatted_text([{ text: 'DocuSeal',
+      column.formatted_text([{ text: 'HaraSoftware',
                                link: Docuseal::PRODUCT_URL }],
                             font_size: 20,
                             font: [FONT_NAME, { variant: :bold }],
