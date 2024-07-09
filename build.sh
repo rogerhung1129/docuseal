@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export HOST=localhost
 # Get the container ID(s) for the ancestor image 'docuseal-app'
 container_ids=$(docker container ps -q --filter ancestor=docuseal-app)
 
